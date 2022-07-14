@@ -1,0 +1,13 @@
+.bigcard-container {
+    display: flex;
+    gap: 8px;
+}
+
+.bigcard-container > img {
+    height: 40px;
+    width: 40px;
+}
+
+.bigcard-container h4 {
+    font-size: 1rem;
+}
