@@ -2,9 +2,10 @@ import React from "react";
 import sino from "./img/sino.svg";
 import logoEmpresa from "./img/logoEmpresa.png";
 import "./App.css";
+import Botoes from "./components/Botoes/Botoes";
 import Container from "./components/Container/Container";
 import Informacoes from "./components/Informacoes/Informacoes";
-import Botoes from "./components/Botoes/Botoes";
+import Sobre from "./components/Container/Sobre/Sobre";
 
 function App() {
     return (
@@ -28,17 +29,30 @@ function App() {
             </div>
 
             <div className="secao">
+                <h2>Sobre</h2>
+                <Sobre
+                    paragrafo1="Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi doloribus aperiam delectus magni, accusamus excepturi ea vitae ratione facere nulla neque rerum, veritatis cumque tempore, dolorem ullam pariatur nostrum iste."
+                    paragrafo2="Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi doloribus aperiam delectus magni."
+                    verMais="...ver mais"
+                />
+            </div>
+
+            <div className="secao">
                 <h2>Experiência</h2>
                 <Container
-                    imagem="https://media-exp1.licdn.com/dms/image/C4E0BAQHN68osUoFKGA/company-logo_100_100/0/1625764040369?e=1665619200&v=beta&t=VFkjftD3tPoCRSGcCfCI8aXEDVGb0I9bIh3h-XmYTVo"
-                    nome="Labenu"
-                    descricao="Cursos de programação Web Full Stack, focados em empregabilidade. Online, ao vivo e opções de integral e noturno."
+                    imagem="https://media-exp1.licdn.com/dms/image/C4E0BAQHBCNmS9sbJsA/company-logo_100_100/0/1620234398789?e=1665619200&v=beta&t=36UqDXIE1KNzaWoM-TsdQlS9WwbC798cvLQTyvRv8Dg"
+                    nomeEmpresa="Montink"
+                    periodoTotal="Tempo integral · 1 a 9 m"
+                    cargo="Analista de CS II"
+                    periodoCargo="jul de 2021 - o momento · 1 ano 1 mês"
                 />
 
                 <Container
-                    imagem="https://media-exp1.licdn.com/dms/image/C4D0BAQFVKOiX8a8_eg/company-logo_200_200/0/1655319222653?e=1665619200&v=beta&t=Htgyx625Nqw-6NH3zN-ksQIxA42rJmbvCF4AiQofYKU"
-                    nome="CI&T"
-                    descricao="Somos especialistas digitais, entregando impacto de negócios por meio de serviços de estratégia, design e engenharia."
+                    imagem="https://media-exp1.licdn.com/dms/image/C4D0BAQG9RwUc9gdQCw/company-logo_100_100/0/1656681447947?e=1665619200&v=beta&t=FoQI3ugc1mt6klEoj6kzll6QZqAFlau_mmZT317arC0"
+                    nomeEmpresa="Atento Brasil"
+                    periodoTotal="Tempo integral · 2 a 1 m"
+                    cargo="Analista de Relacionamento Digital ll (Mídias Sociais Credicard)"
+                    periodoCargo="jan de 2021 · 1 ano"
                 />
             </div>
         </div>

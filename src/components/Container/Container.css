@@ -1,13 +1,18 @@
-.bigcard-container {
-    display: flex;
-    gap: 8px;
+.bigcard-container:first-of-type {
+    margin-bottom: 24px;
 }
 
-.bigcard-container > img {
+.bigcard-container img {
     height: 40px;
     width: 40px;
 }
 
-.bigcard-container h4 {
-    font-size: 1rem;
+.bigcard-container .card-1 {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 14px;
+}
+
+.bigcard-container .card-2 {
+    margin-left: 48px;
 }

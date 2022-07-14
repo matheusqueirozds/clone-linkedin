@@ -31,12 +31,18 @@ a:hover {
     gap: 8px;
     padding: 24px;
     background-color: #f3f2ef;
-    height: 100vh;
+    height: 100%;
 }
 
 .secao {
     width: 782px;
     background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.secao:nth-child(1),
+.secao:nth-child(2) {
     padding: 0;
     border-radius: 0 0 10px 10px;
 }
@@ -49,7 +55,7 @@ a:hover {
 h2 {
     font-size: 20px;
     font-weight: 500;
-    margin-bottom: 22px;
+    margin-bottom: 12px;
 }
 
 .secao > h3 {
